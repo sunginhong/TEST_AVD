@@ -3,6 +3,8 @@ AVD ( animated vector drawable ) XML 포멧 테스트 파일입니다.
 
 안드로이드 AVD XML 애니메이션 파일을 테스트 해볼 수 있는 프로젝트 파일입니다.
 
+적용방식은 제작한 xml 파일을 그래픽 폴더로 붙혀넣기 후 네이밍 수정만으로 안드로이드 앱에서 프리뷰 할 수 있는 프로젝트입니다.
+
 [프로젝트 샘플영상]
 
 ![sample](https://user-images.githubusercontent.com/21286823/174946672-c66bba9d-be9f-4ba9-b957-48fcf10d78b7.gif)
