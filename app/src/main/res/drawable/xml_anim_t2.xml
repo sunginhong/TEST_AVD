@@ -2,26 +2,26 @@
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:targetApi="lollipop">
-
+   // OFF -> ON 애니메이션
     <item
-        android:id="@+id/stop"
+        android:id="@+id/anim2"
         android:drawable="@drawable/xml_anim_t2_off"
         android:state_selected="true" />
-
+    // ON -> OFF 애니메이션
     <item
-        android:id="@+id/play"
+        android:id="@+id/anim1"
         android:drawable="@drawable/xml_anim_t2_on"
         android:state_selected="false" />
-
+    // OFF -> ON 애니메이션
     <transition
         android:drawable="@drawable/xml_anim_t2_off"
-        android:fromId="@id/stop"
+        android:fromId="@id/anim2"
         android:reversible="false"
-        android:toId="@id/play" />
-
+        android:toId="@id/anim1" />
+    // ON -> OFF 애니메이션
     <transition
         android:drawable="@drawable/xml_anim_t2_on"
-        android:fromId="@id/play"
+        android:fromId="@id/anim1"
         android:reversible="false"
-        android:toId="@id/stop" />
+        android:toId="@id/anim2" />
 </animated-selector>

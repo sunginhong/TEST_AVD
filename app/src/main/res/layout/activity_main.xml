@@ -33,6 +33,8 @@
                     android:textSize="18sp"
                     android:textColor="@color/black"/>
 
+<!--                파일 하나로 재생일 경우-->
+<!--                app:srcCompat="@drawable/xml_anim_t1" 경로 변경 해주시면 됩니다.-->
                 <ImageView
                     android:id="@+id/xml_anim_t1"
                     android:layout_width="match_parent"
@@ -54,6 +56,8 @@
                     android:textSize="18sp"
                     android:textColor="@color/black"/>
 
+<!--                파일 두개로 재생일 경우 (ON/OFF)-->
+<!--                app:srcCompat="@drawable/xml_anim_t2" 경로 변경 해주시면 됩니다.-->
                 <ImageView
                     android:id="@+id/xml_anim_t2"
                     android:layout_width="match_parent"
