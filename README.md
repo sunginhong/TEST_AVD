@@ -1,9 +1,11 @@
 # TEST_AVD
 AVD ( animated vector drawable ) XML 포멧 테스트 파일입니다.
 
-![sample](https://user-images.githubusercontent.com/21286823/174946672-c66bba9d-be9f-4ba9-b957-48fcf10d78b7.gif)
-
 안드로이드 AVD XML 애니메이션 파일을 테스트 해볼 수 있는 프로젝트 파일입니다.
+
+[프로젝트 샘플영상]
+
+![sample](https://user-images.githubusercontent.com/21286823/174946672-c66bba9d-be9f-4ba9-b957-48fcf10d78b7.gif)
 
 _
 # 적용 방법
@@ -24,8 +26,12 @@ GET FROM VCS > URL 붙혀넣기 클론하게 되면 내 하드디스크에 프�
 
 5. 두가지 케이스가 있는데 id="xml_anim_t1" 에 적용하는 파일은 한번 재생되는 타입(ON/OFF -> X) id="xml_anim_t2" 에 적용하는 파일은 파일 2개로 재생되는 타입(ON/OFF -> O)
 
-<img width="770" alt="li4" src="https://user-images.githubusercontent.com/21286823/174952732-c69b94ea-74da-43b7-8175-ec54f68ee893.png">
+<img width="770" alt="" src="https://user-images.githubusercontent.com/21286823/174952732-c69b94ea-74da-43b7-8175-ec54f68ee893.png">
 
 6. xml_anim_t2 타입은 파일 2개로 재생되는 타입인 만큼 on/off 애니메이션 경로를 지정해 주어야 실행이 가능합니다.
 
-<img width="770" alt="li5" src="https://user-images.githubusercontent.com/21286823/174952537-67bbe7af-8e6e-4abc-a3dc-6c934b4580ac.png">
+<img width="770" alt="" src="https://user-images.githubusercontent.com/21286823/174953311-998bd70f-fa83-4fa4-bcb2-8fb8cc0f70e0.png">
+
+#
+
+적용하시면서 궁금하거나 기능이 추가 되어야 할 내용을 전달주시면 업데이트 할 수 있도록 하겠습니다.
