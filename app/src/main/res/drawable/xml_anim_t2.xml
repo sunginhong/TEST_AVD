@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop">
+
+    <item
+        android:id="@+id/stop"
+        android:drawable="@drawable/xml_anim_t2_off"
+        android:state_selected="true" />
+
+    <item
+        android:id="@+id/play"
+        android:drawable="@drawable/xml_anim_t2_on"
+        android:state_selected="false" />
+
+    <transition
+        android:drawable="@drawable/xml_anim_t2_off"
+        android:fromId="@id/stop"
+        android:reversible="false"
+        android:toId="@id/play" />
+
+    <transition
+        android:drawable="@drawable/xml_anim_t2_on"
+        android:fromId="@id/play"
+        android:reversible="false"
+        android:toId="@id/stop" />
+</animated-selector>
